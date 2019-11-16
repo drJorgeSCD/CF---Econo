@@ -2,7 +2,33 @@
 /* CSS Document */
 body {
   font-family: "Lato", sans-serif;
+  background-color: coral
 }
+
+
+p{
+	
+	width: 60%;
+  height: auto;
+  padding: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, Calc(-50% + 30px));
+  background-color: rgba(0, 0, 0, 0.70);
+  overflow:inherit;
+  color: white;
+  font-size: 30px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-kerning: normal
+
+}
+
+
+
+
+
+
 
 .sidenav {
   height: 100%;
@@ -11,8 +37,8 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
-  overflow-x: hidden;
+  background-color: #ffc340;
+  overflow-x: hidden;  
   transition: 0.5s;
   padding-top: 60px;
 }
