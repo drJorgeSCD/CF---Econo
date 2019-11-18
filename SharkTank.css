@@ -65,6 +65,7 @@ body {
 
 .middleC{
 	width: 60%;
-	height: inherit;
-	color:white;
+	height: 50px;
+	background-color:black;
+	margin-top:20px;
 }
