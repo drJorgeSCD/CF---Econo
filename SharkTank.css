@@ -66,6 +66,22 @@ body {
 .middleC{
 	width: 60%;
 	height: 50px;
-	background-color:black;
-	margin-top:20px;
+	margin-top:30px;
+	position: relative;
+}
+
+.heading{
+	text-transform: uppercase;
+}
+
+hR{
+	width: 60%;
+}
+
+.rightFloat{
+	margin-top:-10px;
+	width:15%;
+	height: inherit;
+	background-color:skyblue;
+	float: right;
 }
