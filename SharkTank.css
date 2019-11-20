@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 body {
-  font-family: "Lato", sans-serif;
+  font-family: Candara;
 }
 
 #backg{
@@ -65,7 +65,7 @@ body {
 
 .middleC{
 	width: 60%;
-	height: 50px;
+	height: inherit;
 	margin-top:30px;
 	position: relative;
 }
@@ -76,12 +76,40 @@ body {
 
 hR{
 	width: 60%;
+	background-color: rgba(126,205,199,1.00);
+	height:2px;
+	border: none;
 }
 
-.rightFloat{
-	margin-top:-10px;
-	width:15%;
+.infobox{
+	background-color:rgba(126,205,199,1.00);
+	width: 100%;
 	height: inherit;
-	background-color:skyblue;
-	float: right;
+}
+
+.tdFont{
+	font-family: Courier;
+}
+
+.infobox a{
+	text-decoration: none;
+	color:black;
+	font-size: 20px;
+}
+
+.infobox a:hover{
+	text-decoration: underline;
+	color:rgba(74,74,74,1.00);
+}
+
+#careers a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+#careers a:hover{
+	text-decoration: underline;
+	color:rgba(126,205,199,1.00);
+	font-size: +150%;
 }
